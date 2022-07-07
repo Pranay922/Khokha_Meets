@@ -176,21 +176,21 @@ console.log(text.value);
 document.querySelector('html').addEventListener('keydown', (e) => {
     if (e.which == 13 && text.value.length !== 0) {
         let li = document.createElement('li');
-        li.innerHTML = `<li class="user"><div class="over"><b>User</b><br>${text.value}</div></li>`;
+        li.innerHTML = `<li class="user"><div class="over"><b>Your</b><br>${text.value}</div></li>`;
         document.querySelector('ul').append(li);
 
         console.log(text.value);
-        socket.emit('message', text.value);
+        socket.emit('message', text.value,finaluser);
         text.value = ''
         main__chat__window.scrollTop = main__chat__window.scrollHeight;
     }
 })
-socket.on('createMessage', message => {
+socket.on('createMessage', (message,fina) => {
 
     console.log('fin==' + message);
     let li = document.createElement('li');
 
-    li.innerHTML = `<li class="other"><b>Other</b><br>${message}</li>`;
+    li.innerHTML = `<li class="other"><b>${fina}</b><br>${message}</li>`;
 
     document.querySelector('ul').append(li);
 

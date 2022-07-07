@@ -54,7 +54,7 @@ app.use(express.static('public'));
 
 
 app.get('/', (req, res) => {
-    res.render('start', { user: req.user });
+    res.render('start',{ user: req.user } );    //,{ user: req.user }
 });
 app.get('/newMeeting', (req, res) => {
     res.redirect(`/${uuidv4()}`);
@@ -71,7 +71,7 @@ app.get('/ended', (req, res) => {
 })
 
 app.get('/:room', (req, res) => {
-    res.render('index', { roomid: req.params.room, user: req.user }); //to get roomid in index.ejs
+    res.render('index', { roomid: req.params.room , user: req.user  }); //to get roomid in index.ejs   
 })
 
 
@@ -142,7 +142,8 @@ app.post('/invite', (req, res) => {
         from: 'dkps0081@gmail.com',
         to: req.body.xyz,
         subject: 'Sending Email using Node.js',
-        text: 'That was easy! ----or bhailog kya halchal'
+        text: 'https://localhost:3000/abc/zxy-ght',
+        body: 'Join khokhaMeets using this url'
     };
     emailTransporter.sendMail(mailOptions, function(error, info) {
         if (error) {

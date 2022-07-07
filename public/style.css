@@ -218,7 +218,7 @@ video {
 }
 li{
     /* width:60%; */
-    border:solid rgb(95, 60, 60) 1px;
+    /* border:solid rgb(95, 60, 60) 1px; */
      /* display: flexbox; */
         /* display:flex; 
     flex-direction: row; */
@@ -263,14 +263,16 @@ size:80px;
     font-size:15px
 }
 .user{
-    background-color: #db851d;
-    font-family: sans-serif;
+    background: linear-gradient(120deg,#2193b0 , #6dd5ed);
+    font-family: 'Oswald', sans-serif;
     /* align-content: right; */
     text-align: right;
 }
 .other{
-    background-color: #dbd51d;
-    font-family: sans-serif;
+    background: linear-gradient(120deg, #ddd6f3 , #faaca8);
+
+    /* #614385 → #516395 */
+    font-family: 'Oswald', sans-serif;
     
     
 }
