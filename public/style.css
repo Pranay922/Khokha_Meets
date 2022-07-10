@@ -38,34 +38,30 @@
     /* display:grid; */
     /* display: flex;
     justify-content: center; */
+    /*cvxcvxvxvxv*/
     display:inline-flex;
-    /* display:flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
+ 
     justify-content: center;
     max-width: 30%;
     max-height: 40vh;
     margin-right: 20px;
-    padding:9px;
-    /* width: 45%; */
-/* height:50%; */
-/* background-color: #CC3B33; */
-    /* grid-template-columns: repeat(autofill, 300px);
-    grid-auto-rows: 300px; */
-    /* margin-right: 20px; */
-    /* height:100%;
-    width:100%; */
-    /* flex-wrap: wrap; */
-    /* overflow-x: auto; */
-    /* flex-wrap: wrap-reverse; */
-    /* align-items: center; */
+    padding:9px; 
+    /*cfxfbcbcvbcvb*/
+   
+    
 }
 
 video {
     width: 80%;
     height: 80%;
+    max-width: 100vw;
+
     object-fit: cover;
     align-items: center;
+    border:solid red 2px;
+    margin-right:60px;
+    /* float: right; */
+    word-wrap: break-word;
 }
 
 .main {
@@ -84,7 +80,7 @@ video {
 
 .main-right {
     flex: 0.2;
-   
+   height:100vh;
     /* width:20%; */
 
 }
@@ -93,12 +89,15 @@ video {
     flex-grow: 1;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    word-wrap: break-word;
+    max-width:100vw;
     /* align-items: center; */
-    /* display:inline-flex; */
+    /* display:inline-grid; */
     flex-direction: row;
     flex-wrap: wrap;
     padding: 40px;
+    /* overflow: auto; */
     /* margin: 15px; */
 }
 /*edited*/
@@ -108,6 +107,8 @@ video {
     margin-left:35%;
     display: flex;
     justify-content: space-between;
+    width:80%;
+    /* flex:0.9; */
 }
 
 .main-right {
@@ -170,7 +171,7 @@ video {
     flex-direction: column;
     border:solid gray 2px;
     border-radius: 3px;
-    max-height: 100vh;
+    
     /* position:absolute; */
 }
 
@@ -196,6 +197,7 @@ video {
 
 .main-message-container {
     /* padding: 22px 12px; */
+    
     display: flex;
     color: #F5F5F5;
 }
@@ -291,7 +293,3 @@ size:80px;
     display:fixed;
     align-items: left;
 }
-/* .fa-phone-slash
-{
-    background-color: red;
-} */
