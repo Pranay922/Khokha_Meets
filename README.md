@@ -19,3 +19,9 @@
 - Open terminal and Run `npm start` to start the server.
 - Open a new terminal Run `peerjs --port 3001` to start peerjs for establishing peer to peer connection.
 - Open http://localhost:3000 to view it in the browser.
+
+## Welcome Page
+## Sign in Page
+## Join Meeting 
+## Meeting Home
+
