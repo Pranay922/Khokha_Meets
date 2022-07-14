@@ -21,7 +21,24 @@
 - Open http://localhost:3000 to view it in the browser.
 
 ## Welcome Page
+<img src="./pictures/p1.png" width="1000"> <br>
 ## Sign in Page
+<img src="./pictures/p2.png" width="1000"> <br>
 ## Join Meeting 
+<img src="./pictures/p3.png" width="1000"> <br>
 ## Meeting Home
+<img src="./pictures/p4.png" width="1000"> <br>
+## Chat Section
+<img src="./pictures/p6.png" width="1000" > <br> <img src="./pictures/p7.png" width="1000"> <br>
+## Collaborative White Board
+<img src="./pictures/p10.png" width="1000"> <br>
+## Meeting End
+<img src="./pictures/p11.png" width="1000"> <br>
+
+## Contributors:
+- [Aniket Kumar](https://github.com/AniketKumarC007)
+- [Deepak Prasad](https://github.com/Dkps0081)
+- [Nandan Kumar](https://github.com/nandan5719)
+- [Pranay Kishore](https://github.com/Pranay922)
+
 
