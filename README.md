@@ -22,18 +22,23 @@
 
 ## Welcome Page
 <img src="./pictures/p1.png" width="1000"> <br>
+- The welcome page asks the user to click on **login with Google** and then redirects users to Google sign in page
 ## Sign in Page
 <img src="./pictures/p2.png" width="1000"> <br>
 ## Join Meeting 
 <img src="./pictures/p3.png" width="1000"> <br>
+- Users can either join through a meeting link , send meeting invite or can join an instant meet.
 ## Meeting Home
 <img src="./pictures/p4.png" width="1000"> <br>
+- The users here have option to toggle audio/video, chat, use white board or simply leave the meet
 ## Chat Section
 <img src="./pictures/p6.png" width="1000" > <br> <img src="./pictures/p7.png" width="1000"> <br>
+- The above images show the proper functioning of chat section.
 ## Collaborative White Board
 <img src="./pictures/p10.png" width="1000"> <br>
 ## Meeting End
 <img src="./pictures/p11.png" width="1000"> <br>
+- The users recieve an option to rejoin the meet .
 
 _This project was built under coding club by:_
 - [Aniket Kumar](https://github.com/AniketKumarC007)
