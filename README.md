@@ -41,7 +41,7 @@
 <img src="./pictures/p11.png" width="1000"> <br>
 - The users recieve an option to rejoin the meet .
 
-_This project was built under coding club by:_
+_This project was built under Coding Club IIT Guwahati by:_
 - [Aniket Kumar](https://github.com/AniketKumarC007)
 - [Deepak Prasad](https://github.com/Dkps0081)
 - [Nandan Kumar](https://github.com/nandan5719)
